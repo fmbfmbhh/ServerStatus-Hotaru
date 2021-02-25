@@ -30,7 +30,7 @@ If some of the assets used in this repo infringe your copyright, please contact 
 服务端：
 
 ```bash
-wget https://raw.githubusercontent.com/CokeMine/ServerStatus-Hotaru/master/status.sh
+wget https://raw.githubusercontent.com/fmbfmbhh/ServerStatus-Hotaru/master/status.sh
 bash status.sh s
 ```
 
@@ -65,7 +65,7 @@ bash status.sh c
 
 ```
 apt install wget unzip curl make build-essential
-wget https://github.com/CokeMine/ServerStatus-Hotaru/archive/master.zip
+wget https://github.com/fmbfmbhh/ServerStatus-Hotaru/archive/master.zip
 unzip master.zip
 cd /root/ServerStatus-Hotaru-master/server
 make #手动编译生成二进制文件
@@ -92,7 +92,7 @@ Linux：
 ```
 apt install python3 python3-pip wget
 pip3 install psutil
-wget https://raw.githubusercontent.com/CokeMine/ServerStatus-Hotaru/master/clients/status-psutil.py
+wget https://raw.githubusercontent.com/fmbfmbhh/ServerStatus-Hotaru/master/clients/status-psutil.py
 vim status-psutil.py #修改客户端配置文件
 python3 status-psutil.py
 ```
